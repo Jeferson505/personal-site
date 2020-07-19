@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Site
 
-## Available Scripts
+* [Portuguese](#descrição)
+* [English](#description)
 
-In the project directory, you can run:
+## Descrição
+Site Pessoal desenvolvido por Jeferson Santos.
+Esse repositório foi criado com o intuito de hospedar meu site pessoal.
+<!-- Você pode acessá-lo pelo link: -->
 
-### `npm start`
+## Contato
+Caso queria entrar em contato comigo, envie um e-mail para: <jefersonsantos.jsm@gmail.com>
+Você também poderá me encontrar através das seguintes redes sociais:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![GitHub][1.1]][1] :arrow_right: [Jeferson505][1]
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[![LinkedIn][2.1]][2] :arrow_right: [Jeferson Santos][2]
 
-### `npm test`
+[![Twitter][3.1]][3] :arrow_right: [SantosJeferson0][3]
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Description
+Personal website developed by Jeferson Santos.
+This repository was created in order to host my personal website.
+<!-- You can access it through the link: -->
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
+If you want to contact me, send an email to: <jefersonsantos.jsm@gmail.com>
+You can also contact me through these social networks:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[![GitHub][1.1]][1] :arrow_right: [Jeferson505][1]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![LinkedIn][2.1]][2] :arrow_right: [Jeferson Santos][2]
 
-### `npm run eject`
+[![Twitter][3.1]][3] :arrow_right: [SantosJeferson0][3]
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
+**<p style="text-align: center">Developed by [Jeferson Santos][1].</p>**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[1.1]: https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-20.png
+[2.1]: https://cdn4.iconfinder.com/data/icons/social-media-2097/94/linkedin-20.png
+[3.1]: https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/twitter-20.png
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[1]: https://github.com/Jeferson505
+[2]: https://www.linkedin.com/in/jeferson-santos-68722419a/
+[3]: https://twitter.com/SantosJeferson0

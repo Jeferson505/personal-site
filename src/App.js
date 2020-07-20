@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
 
-function App() {
+import NavBar from './components/NavBar';
+
+import { Paper } from '@material-ui/core';
+import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
+
+import storage from 'local-storage-fallback';
+
+const useStyles = makeStyles(() => ({
+  paper: {
+    height: "100vh",
+  },
+}));
+
+export default function App() {
+  const classes = useStyles();
+  const [darkMode, setDarkMode] = useState();
+
+  useEffect(() => {
+    let darkMode = storage.getItem('darkMode');
+    setDarkMode(darkMode === 'true' ? true : false);
+  }, []);
+
+  function changeTheme() {
+    storage.setItem('darkMode', !darkMode);
+    setDarkMode(!darkMode);
+  }
+
+  const darkTheme = createMuiTheme({
+    palette: {
+      type: "dark",
+    }
+  });
+
+  const defaultTheme = createMuiTheme({});
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={darkMode ? darkTheme : defaultTheme}>
+      <Paper className={classes.paper}>
+        <NavBar darkMode={darkMode} changeTheme={changeTheme} />
+      </Paper>
+    </ThemeProvider>
   );
 }
-
-export default App;

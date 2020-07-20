@@ -2,24 +2,20 @@ import React, { useState, useEffect } from 'react';
 
 import NavBar from './components/NavBar';
 
+import { ThemeProvider } from '@material-ui/core/styles';
 import { Paper } from '@material-ui/core';
-import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
-
 import storage from 'local-storage-fallback';
 
-const useStyles = makeStyles(() => ({
-  paper: {
-    height: "100vh",
-  },
-}));
+import { useStyles } from './Style';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 export default function App() {
   const classes = useStyles();
   const [darkMode, setDarkMode] = useState();
 
   useEffect(() => {
-    let darkMode = storage.getItem('darkMode');
-    setDarkMode(darkMode === 'true' ? true : false);
+    let isDarkMode = storage.getItem('darkMode');
+    setDarkMode(isDarkMode === 'true' ? true : false);
   }, []);
 
   function changeTheme() {

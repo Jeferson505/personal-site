@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-import NavBar from './components/NavBar';
-
 import { ThemeProvider } from '@material-ui/core/styles';
 import { Paper } from '@material-ui/core';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { useStyles } from './Style';
 import storage from 'local-storage-fallback';
 
-import { useStyles } from './Style';
-import { createMuiTheme } from '@material-ui/core/styles';
+import NavBar from './components/NabBar/NavBar';
+import Home from './screens/Home/Home';
 
 export default function App() {
   const classes = useStyles();
@@ -35,6 +35,7 @@ export default function App() {
     <ThemeProvider theme={darkMode ? darkTheme : defaultTheme}>
       <Paper className={classes.paper}>
         <NavBar darkMode={darkMode} changeTheme={changeTheme} />
+        <Home />
       </Paper>
     </ThemeProvider>
   );

@@ -36,7 +36,7 @@ You can also contact me through these social networks:
 [![Twitter][3.1]][3] :arrow_right: [SantosJeferson0][3]
 
 ---
-**Developed by [Jeferson Santos][1].**
+**<p align='center'>Developed by [Jeferson Santos][1].</p>**
 
 [1.1]: https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-20.png
 [2.1]: https://cdn4.iconfinder.com/data/icons/social-media-2097/94/linkedin-20.png
